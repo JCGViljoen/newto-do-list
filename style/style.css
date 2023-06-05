@@ -1,0 +1,29 @@
+#item-list{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.item{
+    margin-bottom: 1rem;
+}
+
+span{
+    color: #f9004d;
+}
+
+button{
+    cursor: pointer;
+      
+}
+button:hover{
+    background-color: #f9004d;
+    color: #000;
+}
+
+input[type=checkbox]:checked + .item {
+    background-color: gray;
+    color:#000;
+    text-decoration: line-through;}
